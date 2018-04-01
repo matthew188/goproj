@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/matthew188/LearnTest/golang/code/fundamental"
+	"fundamental"
 )
 
 func main() {
