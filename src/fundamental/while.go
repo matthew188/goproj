@@ -16,3 +16,12 @@ func UseWhileFindPrim() {
 		fmt.Println(C, "是素数")
 	}
 }
+
+func FindMax(a float32,b float32) float32{
+	if a>b{
+		return a
+	}else{
+		return b
+	}
+
+}

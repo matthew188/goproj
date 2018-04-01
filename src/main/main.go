@@ -7,20 +7,34 @@ import (
 
 func main() {
 	fmt.Println("hello")
+	//println(1 <<10)
 
-	//常量测试
-	fundamental.Test_const();
+	//1 常量测试
+	//fundamental.Test_const();
 
-	//for质数测试
-	fundamental.UseWhileFindPrim();
+	//2 for质数测试
+	//fundamental.UseWhileFindPrim();
 
-	println(1 <<10)
+	//3 函数测试 找最大值
+	//fmt.Println("最大值为:",fundamental.FindMax(12123.432,5432))
 
+	//4 数组测试
+	//fundamental.ArrayTest();
 
-	//i:=1
-	//for true  {
-	//	i++
-	//	fmt.Printf("这是无限循环。%d\n",i);
-	//}
+	//5 指针测试
+	//var a ,b int=11,22
+	//fundamental.Swap(&a,&b)
+	//fmt.Println(a ,b)
+	//var x ,y int=55,77
+	//fundamental.CannotSwapAddr(x,y)
+	//fmt.Println(x,y)
+
+	//6 结构体
+	//var book fundamental.Books  //调用其他包的结构体 要加包名
+	////fundamental.PrintBooks(book)
+	//fundamental.PprintBooks(&book)
+
+	//7 切片
+	fundamental.SliceTest()
 
 }
