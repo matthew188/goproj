@@ -35,6 +35,23 @@ func main() {
 	//fundamental.PprintBooks(&book)
 
 	//7 切片
-	fundamental.SliceTest()
+	//fundamental.SliceTest()
 
+	// 8  range函数
+	//fundamental.RangeTest()
+
+	// 9 map数据类型
+	//fundamental.MapTest()
+
+	//10 递归
+	//var i uint32
+	//for i = 0; i < 10; i++ {
+	//	println(i,"的费布拉奇数是 ", fundamental.Fibonacci(i))
+	//}
+
+	//11 强制类型转换
+	//fundamental.Forcetrans()
+
+	//12 接口啊 interface
+	 fundamental.InterfaceTest()
 }

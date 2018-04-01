@@ -51,3 +51,14 @@ func CannotSwapAddr(x int, y int) { //这么交换没有意义
 	x = y
 	y = *tmp
 }
+
+func RangeTest(){
+	var arr = []int{123,234,35,21,43}
+	sum :=0
+	for i,v := range(arr){
+		sum = sum+v
+		println("第",i,"次的结果是",sum)
+	}
+	println("数组的和是",sum)
+
+}
