@@ -53,5 +53,8 @@ func main() {
 	//fundamental.Forcetrans()
 
 	//12 接口啊 interface
-	 fundamental.InterfaceTest()
+	// fundamental.InterfaceTest()
+
+	//13 error错误处理
+	fundamental.ErrorTest()
 }
