@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+        //1
 	fmt.Println("hello")
 	//println(1 <<10)
 
