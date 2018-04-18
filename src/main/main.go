@@ -12,6 +12,7 @@ func main() {
 	//1 常量测试
 	//fundamental.Test_const();
 
+        //modify 2
 	//2 for质数测试
 	//fundamental.UseWhileFindPrim();
 
