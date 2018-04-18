@@ -31,7 +31,8 @@ func main() {
 	//fundamental.CannotSwapAddr(x,y)
 	//fmt.Println(x,y)
 
-	//6 结构体
+	//6
+        //6 结构体
 	//var book fundamental.Books  //调用其他包的结构体 要加包名
 	////fundamental.PrintBooks(book)
 	//fundamental.PprintBooks(&book)
