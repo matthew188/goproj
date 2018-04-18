@@ -16,6 +16,7 @@ func main() {
 	//2 for质数测试
 	//fundamental.UseWhileFindPrim();
 
+        //modify 3
 	//3 函数测试 找最大值
 	//fmt.Println("最大值为:",fundamental.FindMax(12123.432,5432))
 
